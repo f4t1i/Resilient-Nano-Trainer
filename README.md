@@ -1,4 +1,6 @@
-# Adaptive Resonance Suppression (ARS) for nanoGPT
+# Resilient Nano-Trainer: Adaptive Resonance Suppression
+
+> **📦 STATUS: ARCHIVED (v1.0)** | This repository contains the complete ARS implementation and is maintained for reference. For the next phase (Tool-Selection Framework with ARS integration), see [nanoGPT-Agent-Framework](https://github.com/f4t1i/nanoGPT-Agent-Framework).
 
 This repository demonstrates **Adaptive Resonance Suppression (ARS)**, a novel optimizer wrapper designed to enhance training stability in neural networks, particularly after distribution shifts. This implementation extends Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT) to showcase ARS's effectiveness in a real-world, budget-constrained training scenario.
 
@@ -24,6 +26,14 @@ ARS is a lightweight, plug-and-play wrapper for any PyTorch optimizer. It preven
 ![ARS Mechanism](results/ars_mechanism.png)
 
 This combination allows ARS to act as an intelligent circuit breaker, gently intervening only when it detects instability, without hindering normal training progress.
+
+## 📚 Related Work
+
+**Phase 2 (Upcoming):** [nanoGPT-Agent-Framework](https://github.com/f4t1i/nanoGPT-Agent-Framework)
+- Tool-Selection Training System using ARS
+- 4 Training Methods: SFT, RL, ICL, Continuous Learning
+- 373 Tools Inventory
+- ARS-Stabilized Reward System
 
 ## 🔬 Experiments & Replication
 
